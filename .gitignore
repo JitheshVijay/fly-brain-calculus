@@ -1,0 +1,14 @@
+.venv/
+data/
+skel/
+frames/
+out/*.npz
+out/*.mp4
+
+# Internal only. make_report.py and the brief it generates contain flo101's
+# own launch copy and messaging guardrails; they are not part of the science.
+make_report.py
+out/growth_brief.html
+out/*growth_brief.pdf
+
+.DS_Store
