@@ -165,5 +165,5 @@ Janelia FlyEM, the Cambridge Drosophila Connectomics Group and Google Research.
 The three files `build_graph.py` expects go in `data/`; they total about 1 GB
 and are not committed here.
 
-Code in this repository is MIT licensed. The connectome data is not - it is
-CC-BY 4.0 and must be credited. See `LICENSE`.
+Code in this repository is MIT licensed (`LICENSE`). The connectome data is
+not: it is CC-BY 4.0 and must be credited. See `NOTICE`.
