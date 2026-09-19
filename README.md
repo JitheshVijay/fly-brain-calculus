@@ -1,9 +1,20 @@
 # Can a fruit fly connectome learn the power rule?
 
+A real fruit fly brain, answering a calculus question it has never seen.
+
+![the fly answering a held-out calculus item](out/flybrain_calculus.gif)
+
+*Every strand is a real reconstructed neuron from the published connectome. The
+glow is real simulated activity: the item-driven difference against a
+blank-input baseline. The answer and confidence on screen are the model's actual
+output on a held-out item.*
+[Full 24s film (webm)](out/flybrain_calculus_1280.webm)
+
+---
+
 A control experiment on the HHMI Janelia / Google Research **MaleCNS v1.0**
-connectome (CC-BY). The fly is given a real flo101-style multiple-choice
-calculus item, `d/dx x^n`, and we measure whether the wiring it was born with
-helps it answer.
+connectome (CC-BY). The fly is given a multiple-choice calculus item,
+`d/dx x^n`, and we measure whether the wiring it was born with helps it answer.
 
 **Every number below is produced by `experiment.py` and written by `report.py`.
 Nothing is hand-typed.**
@@ -37,12 +48,22 @@ organisation costs it the generic mixing a random graph gives for free.
 Anyone reporting that a connectome-driven agent succeeded at a task, without
 running these arms, has not shown that the connectome did anything.
 
+## What you are looking at
+
+![the adult male Drosophila central nervous system, labelled](out/anatomy.png)
+
+998 of the 166,700 neurons, drawn from the reconstructed morphology that ships
+with the dataset. Both optic lobes, the central brain, the neck connective and
+the ventral nerve cord are where they are because that is where those cells
+actually go.
+
 ## Visuals
 
 | | |
 |---|---|
+| `out/flybrain_calculus.gif` | the loop above, for embedding anywhere |
 | `out/flybrain_calculus_1280.webm` | 24s film: the fly answering a held-out item, real morphology, real activity |
-| `out/anatomy.png` | labelled anatomy figure with colour key |
+| `out/anatomy.png` | labelled anatomy figure with colour key (above) |
 | `out/mastery_curves.png` | the six-arm result |
 | `out/poster.png` | still frame for thumbnails |
 | `out/angles.png` | camera-angle contact sheet used to pick the view |
