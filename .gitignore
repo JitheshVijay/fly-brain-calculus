@@ -1,4 +1,7 @@
 .venv/
+.venv-check/
+__pycache__/
+*.pyc
 data/
 skel/
 frames/

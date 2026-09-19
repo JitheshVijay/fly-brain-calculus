@@ -1,0 +1,10 @@
+# Runtime dependencies for the fly-brain-calculus pipeline.
+#   pip install -r requirements.txt
+
+numpy          # arrays; used by every stage
+scipy          # sparse graph ops, stats, signal helpers
+pyarrow        # reads the Janelia connectome parquet dumps (build_graph.py)
+torch          # reservoir dynamics (reservoir.py, activity.py)
+matplotlib     # charts (chart.py, angles.py, render.py)
+Pillow         # frame compositing for the stills and movie
+                 # (anatomy.py, movie.py, outro.py)

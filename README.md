@@ -175,7 +175,7 @@ it, zero descending neurons ever fire.
 ## Reproduce
 
 ```
-python3 -m venv .venv && ./.venv/bin/pip install pyarrow numpy scipy matplotlib torch
+python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
 ./.venv/bin/python build_graph.py     # downloads must already be in data/
 ./.venv/bin/python experiment.py      # ~40 min on an M-series laptop
 ./.venv/bin/python chart.py && ./.venv/bin/python report.py
